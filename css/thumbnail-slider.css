@@ -1,0 +1,65 @@
+/*-------------Slider 1 --------------*/
+.bod {
+  margin: 15px 0px 0px 260px;
+  
+}
+
+.main {
+  margin: 50px 0px 0px 112px;
+  
+}
+
+#carl img {
+    display: block;
+    opacity: .5;
+    cursor: pointer;
+}
+#carl .flex-active-slide img {
+    opacity: 1;
+    cursor: default;
+}
+
+/*-------------------------- Slider 2 --------------------------------*/
+
+#carls img {
+    display: block;
+    opacity: .5;
+    cursor: pointer;
+}
+#carls .flex-active-slide img {
+    opacity: 1;
+    cursor: default;
+}
+
+#mob{
+	width: 214px;
+    margin-left: 240px;
+}
+
+
+/*-------------------------- Slider 3 --------------------------------*/
+
+#cal img {
+    display: block;
+    opacity: .5;
+    cursor: pointer;
+}
+#cal .flex-active-slide img {
+    opacity: 1;
+    cursor: default;
+}
+
+
+
+/*-------------------------- Slider 4 --------------------------------*/
+
+#cals img {
+    display: block;
+    opacity: .5;
+    cursor: pointer;
+}
+#cals .flex-active-slide img {
+    opacity: 1;
+    cursor: default;
+}
+

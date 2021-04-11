@@ -1,0 +1,85 @@
+/*Instagram Posts*/
+
+/*Image over-laping*/
+.insta-container {
+  position: relative;
+  width: 328px;
+  height: 328px;
+}
+
+.image {
+  position: absolute;
+  top: 6px;
+  right: 40px;
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
+
+.insta-image {
+  width:282px; 
+  height:282px; 
+  background:#fff; 
+  border:0; 
+  border-radius:9px; 
+  box-shadow:0 0 1px 0 rgba(0,0,0,0.9),2px 2px 2px 2px rgba(0,0,0,0.9) ;
+}
+
+.insta-overlay {
+  position: absolute;
+  top: 6px;
+  bottom: 0;
+  left: 6px;
+  right: 0;
+  height: 282px;
+  width: 282px;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #000;
+  border:0; 
+  border-radius:9px;
+  box-shadow:0 0 5px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15);
+}
+
+.insta-container:hover .insta-overlay {
+  opacity: 0.5;
+}
+
+.insta-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 36%;
+  left: 27%;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 50px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  position: "center";
+}
+
+.insta-link {
+	background:#FFFFFF; 
+	line-height:0; 
+	padding:0 0; 
+	text-align:center; 
+	text-decoration:none; 
+	width:100%;
+}
